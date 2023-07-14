@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="main">
+        <h1>Simple Calculator</h1>
+        <div class="master">
+            <div class="left">
+                <div class="operators">
+                    <button onclick="appendOperator('+')">+</button>
+                    <button onclick="appendNumber('-')">-</button>
+                    <button onclick="appendNumber('*')">*</button>
+                    <button onclick="appendNumber('/')">/</button>
+                </div>
+                <div class="one">
+                    <button onclick="appendNumber(1)">1</button>
+                    <button onclick="appendNumber(2)">2</button>
+                    <button onclick="appendNumber(3)">3</button>
+                    <button onclick="appendNumber(4)">4</button>
+                </div>
+                <div class="two">
+                    <button onclick="appendNumber(5)">5</button>
+                    <button onclick="appendNumber(6)">6</button>
+                    <button onclick="appendNumber(7)">7</button>
+                    <button onclick="appendNumber(8)">8</button>
+                </div>
+                <div class="three">
+                    <button onclick="appendNumber(9)">9</button>
+                    <button onclick="appendNumber(0)">0</button>
+                    <button onclick="clear()" id="clear">C</button>
+                    <button onclick="calculate()">=</button>
+                </div>
+            </div>
+            <div class="right">
+                <input type="text" class="input" id="input" placeholder="Enter Number">
+                <h2 id="answer" class="answer">Answer</h2>
+                <h2 class="output" id="output"></h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

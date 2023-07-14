@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    margin: 10vh;
+    /* padding: 10VH; */
+    /* border: 3px solid red; */
+}
+h1{
+    margin-left: 70vh;
+    /* padding: 20vh; */
+}
+.master{
+    /* border: 3px solid green; */
+    /* margin: 10vh; */
+    /* padding: 10VH; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left{
+    /* border: 3px solid blueviolet; */
+    background-color: rgb(51, 74, 94);
+    border-radius: 2vh;
+}
+.right{
+    /* border: 3px solid blueviolet; */
+    margin-top: 10vh;
+     margin-left: 5vh;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.operators{
+    display: flex;
+    justify-content: space-between;
+}
+.one{
+    display: flex;
+}
+.two{
+    display: flex;
+}
+.three{
+    display: flex;
+}
+.input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: rgb(155, 214, 141);
+    text-decoration: none;
+    border-radius: 3vh;
+    height: 5vh;
+}
+button{
+    margin: 3vh;
+    padding: 3vh;
+    background-color: rgb(155, 214, 141);
+    border-radius: 3vh;
+    text-decoration: none;
+}
+h2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    /* margin-left: 5vh; */
+    height: 5vh;
+    width: 10vw;
+    border: 1px solid rgb(155, 214, 141);
+    border-radius: 3vh;
+}
